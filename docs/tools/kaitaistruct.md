@@ -21,5 +21,5 @@ Has web browser and command line tools.
 
 - [Kaitai Web IDE](https://ide.kaitai.io/)  
 Works in your browser. Easy starter tool.
-- [some ksy definitions](https://github.com/sevonj/nmh_reverse/tree/master/lib/kaitai_defs)  
+- [some ksy definitions](https://github.com/sevonj/ghm_docs/tree/master/lib/kaitai_defs)  
 For NMH

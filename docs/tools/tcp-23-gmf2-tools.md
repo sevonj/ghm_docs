@@ -5,11 +5,11 @@
     [`GitHub`](https://github.com/TCP-23/GMF2-Tools)
     
     __Games__
-    [`NMH`](/nmh_reverse/games/NMH)
-    [`NMH2`](/nmh_reverse/games/NMH2)
+    [`NMH`](/ghm_docs/games/NMH)
+    [`NMH2`](/ghm_docs/games/NMH2)
     
     __File formats__
-    [`GMF2`](/nmh_reverse/formats/gmf2)
+    [`GMF2`](/ghm_docs/formats/gmf2)
     
 
 A Blender extension that allows Blender to import GMF2 files.

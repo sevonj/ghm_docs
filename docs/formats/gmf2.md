@@ -2,14 +2,14 @@
 
 !!! note inline end ""
     __Games__
-    [`NMH`](/nmh_reverse/games/NMH)
+    [`NMH`](/ghm_docs/games/NMH)
     
     __Extensions__
     `.gm2`
 
     __Tools__  
-    [nmh_reverse_scripts](/nmh_reverse/tools/nmh_reverse_scripts)  
-    [GMF2-Tools](/nmh_reverse/tools/tcp-23-gmf2-tools)
+    [nmh_reverse_scripts](/ghm_docs/tools/nmh_reverse_scripts)  
+    [GMF2-Tools](/ghm_docs/tools/tcp-23-gmf2-tools)
 
 Grasshopper model file.
 
@@ -60,7 +60,7 @@ struct GMF2Texture {
 };
 ```
 
-Texture data itself is just a [GCT0](/nmh_reverse/formats/gct0) file.
+Texture data itself is just a [GCT0](/ghm_docs/formats/gct0) file.
 
 ## Materials
 ```cpp

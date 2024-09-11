@@ -5,12 +5,12 @@
     [`GitHub`](https://github.com/sevonj/nmh_reverse)
     
     __Games__
-    [`NMH`](/nmh_reverse/games/NMH)
+    [`NMH`](/ghm_docs/games/NMH)
     
     __File formats__
-    [`FLCG`](/nmh_reverse/formats/flcg)
-    [`GCT0`](/nmh_reverse/formats/gct0)
-    [`GMF2`](/nmh_reverse/formats/gmf2)
+    [`FLCG`](/ghm_docs/formats/flcg)
+    [`GCT0`](/ghm_docs/formats/gct0)
+    [`GMF2`](/ghm_docs/formats/gmf2)
     
 
 A collection of scripts for tampering with NMH open world and other models. Also contains Kaitai Struct files.
@@ -50,4 +50,4 @@ A collection of scripts for tampering with NMH open world and other models. Also
 
 **.ksy files**
 
-:   See [Kaitai Struct](/nmh_reverse/tools/kaitaistruct)
+:   See [Kaitai Struct](/ghm_docs/tools/kaitaistruct)

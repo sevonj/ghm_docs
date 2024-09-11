@@ -9,7 +9,7 @@ No More Heroes
 
 ### Asset types
 
-- [ ] [GMF2](/nmh_reverse/formats/gmf2)
+- [ ] [GMF2](/ghm_docs/formats/gmf2)
     - [ ] Textures
         - [ ] All values (header)
         - [x] Data  
@@ -41,7 +41,7 @@ No More Heroes
                 They're parent/first child/prev/next
         - [ ] data_c buffer
         - [ ] All values
-- [ ] [FLCG](/nmh_reverse/formats/flcg)
+- [ ] [FLCG](/ghm_docs/formats/flcg)
     - [ ] Materials (what are these dummy materials even used for?)
     - [ ] Models
         - [ ] Linked list
@@ -55,7 +55,7 @@ No More Heroes
             - [ ] Linked list?
             - [ ] unk_3
         - [ ] Unknown vectors
-- [ ] [GCT0](/nmh_reverse/formats/gct0)
+- [ ] [GCT0](/ghm_docs/formats/gct0)
     - [x] Size
     - [x] Encodings 
     - [ ] Convert to png

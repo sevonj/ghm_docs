@@ -5,10 +5,10 @@
     [`GitHub`](https://github.com/Venomalia/DolphinTextureExtraction-tool)
     
     __Games__
-    [`NMH`](/nmh_reverse/games/NMH)
+    [`NMH`](/ghm_docs/games/NMH)
     
     __File formats__
-    [`GCT0`](/nmh_reverse/formats/gct0) 
+    [`GCT0`](/ghm_docs/formats/gct0) 
 
     __Platforms__
     `linux-x64`
