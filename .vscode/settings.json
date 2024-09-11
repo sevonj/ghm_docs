@@ -1,6 +1,5 @@
 {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "ms-python.black-formatter",
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },

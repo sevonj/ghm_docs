@@ -1,4 +1,4 @@
-# NMH Python Scripts (this repo)
+# NMH Python Scripts
 
 !!! note inline end ""
     __Links__
@@ -13,7 +13,11 @@
     [`GMF2`](/nmh_reverse/formats/gmf2)
     
 
-A collection of scripts for tampering with NMH maps. Also contains Kaitai Struct files.
+A collection of scripts for tampering with NMH open world and other models. Also contains Kaitai Struct files.
+![img](img/nmh_reverse_scripts.png)
+
+!!! note
+    These scripts are somewhat succeeded by the [GMF2-Tools](tcp-23-gmf2-tools.md) blender extension. For model ripping, you may find it more useful.
 
 ## Requirements
 1. Game files
