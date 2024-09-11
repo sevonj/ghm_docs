@@ -37,13 +37,15 @@ struct GMF2Header {
   int16_t num_unused;     //
   int16_t num_materials;  //
   int32_t off_objects;    //
-  int32_t off_textures;   // Always 0x70
+  int32_t off_textures;   // Always 0x70 or 0x80?
   int32_t off_unused;     //
   int32_t off_materials;  //
   int32_t unk_0x30;       //
   int32_t unk_0x34;       //
 };
 ```
+
+In NMH2, there's often an unknown integer at `0x80`.
 
 ## Textures
 ```cpp
@@ -93,7 +95,7 @@ struct GMF2MaterialData {
     The unit of distance in all 3d coordinates are 10m (or very close anyway, I didn't check).  
     Divide them by 10 to get realistic sized models
 
-These seem to be used as bones in int8_tacters.
+These seem to be used as bones in characters.
 
 ```cpp
 // Object header
@@ -107,7 +109,7 @@ struct GMF2Object {
   int32_t off_prev;           // Previous object in linked list
   int32_t off_next;           // Next object in linked list
   int32_t off_surfaces;       //
-  int32_t unused;             // probably unused
+  float unk_0x24;             // Appears in NMH2.
   int32_t unk_0x28;           // Zero in all world chunks.
   int32_t v_divisor;          // Exponent of vertex divisor.
   float position[3];          // XYZ coords.
