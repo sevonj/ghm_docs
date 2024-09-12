@@ -118,7 +118,7 @@ struct GMF2Object {
   float rotation[3];          // Euler rotation? Quaternion?
   float unk_0x4c;             //
   float scale[3];             // XYZ scale.
-  float off_v_format;         // Either 1.0f or an offset to index format.
+  float off_v_format;         // Either 1.0f or an offset to vertex format?
   float cullbox_position[3];  // XYZ coords.
   float unk_0x6c;             // Unused 4th component of previous vector?
   float cullbox_size[3];      // XYZ size.
