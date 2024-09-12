@@ -1,3 +1,11 @@
-# Tools
+# Tools Index
 
-- 
+| Tool                                                                               | Formats                                                               | Category                     | Desc.         | Games                                                                                  |
+| ---------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------- | ------------- | -------------------------------------------------------------------------------------- |
+| [**DolphinTextureExtraction-tool**](/ghm_docs/tools/dolphintextureextraction-tool) | [**GCT0**](/ghm_docs/formats/gct0)                                    | Texture                      |               | [`K7`](/ghm_docs/games/K7) [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2) |
+| [**GMF2-Tools**](/ghm_docs/tools/tcp-23-gmf2-tools)                                | [**GMF2**](/ghm_docs/formats/gmf2)                                    | Models                       | Blender addon | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
+| [**Kaitai Struct**](/ghm_docs/tools/kaitaistruct)                                  | any                                                                   | Reverse-engineering          |               | any                                                                                    |
+| [**No-More-RSL**](/ghm_docs/tools/no-more-rsl)                                     | [**RMHG**](/ghm_docs/formats/rmhg)                                    | Extract/Unpack               |               | [`K7`](/ghm_docs/games/K7) [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2) |
+| [**NMH Reverse Scripts**](/ghm_docs/tools/nmh_reverse_scripts)                     | [**FLCG**](/ghm_docs/formats/flcg) [**GMF2**](/ghm_docs/formats/gmf2) | Reverse-engineering, generic |               | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
+
+This list is non-exhaustive.

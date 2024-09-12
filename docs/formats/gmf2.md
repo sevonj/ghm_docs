@@ -3,13 +3,14 @@
 !!! note inline end ""
     __Games__
     [`NMH`](/ghm_docs/games/NMH)
+    [`NMH2`](/ghm_docs/games/NMH2)
     
     __Extensions__
     `.gm2`
 
     __Tools__  
-    [nmh_reverse_scripts](/ghm_docs/tools/nmh_reverse_scripts)  
     [GMF2-Tools](/ghm_docs/tools/tcp-23-gmf2-tools)
+    [NMH Reverse Scripts](/ghm_docs/tools/nmh_reverse_scripts)  
 
 Grasshopper model file.
 
@@ -45,7 +46,7 @@ struct GMF2Header {
 };
 ```
 
-In NMH2, there's often an unknown integer at `0x80`.
+In NMH2, there's often an unknown integer at `0x70`, in which case `off_textures` is moved to `0x80`.
 
 ## Textures
 ```cpp

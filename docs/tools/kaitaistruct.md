@@ -11,6 +11,9 @@
     __File formats__
     `any`
 
+    __Platforms__
+    `any (browser)`
+
 Kaitai Struct is a system for deserializing arbitrary binary data. Useful for reverse engineering game files.
 
 The file layout is defined in a .ksy file, which can be compiled into a parser.

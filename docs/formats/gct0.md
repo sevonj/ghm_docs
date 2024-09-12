@@ -2,15 +2,17 @@
 
 !!! note inline end ""
     __Games__
+    [`K7`](/ghm_docs/games/K7)
     [`NMH`](/ghm_docs/games/NMH)
+    [`NMH2`](/ghm_docs/games/NMH2)
     
     __Extensions__
     `.gct`
     `.bin`
 
     __Tools__  
-    [DolphinTextureExtraction-tool](/ghm_docs/tools/DolphinTextureExtraction-tool)
-    [nmh_reverse_scripts](/ghm_docs/tools/nmh_reverse_scripts)
+    [DolphinTextureExtraction-tool](/ghm_docs/tools/dolphintextureextraction-tool)
+    [NMH Reverse Scripts](/ghm_docs/tools/nmh_reverse_scripts)
 
 
 Grasshopper texture file.

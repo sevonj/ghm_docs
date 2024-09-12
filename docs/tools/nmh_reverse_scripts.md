@@ -1,4 +1,4 @@
-# NMH Python Scripts
+# NMH Reverse Scripts
 
 !!! note inline end ""
     __Links__
@@ -12,6 +12,8 @@
     [`GCT0`](/ghm_docs/formats/gct0)
     [`GMF2`](/ghm_docs/formats/gmf2)
     
+    __Platforms__
+    `any (python)`
 
 A collection of scripts for tampering with NMH open world and other models. Also contains Kaitai Struct files.
 ![img](img/nmh_reverse_scripts.png)

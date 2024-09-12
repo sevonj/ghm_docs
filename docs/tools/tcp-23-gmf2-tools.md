@@ -11,6 +11,8 @@
     __File formats__
     [`GMF2`](/ghm_docs/formats/gmf2)
     
+    __Platforms__
+    `any (blender)`
 
 A Blender extension that allows Blender to import GMF2 files.
 
