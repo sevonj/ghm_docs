@@ -55,7 +55,7 @@ struct FLCGModel {
   int8_t name[8];       // Object name truncated to 8B. Shift JIS
   float unkf_0x08;      //
   int32_t unk_0x0c;     //
-  int8_t zeropad[16];   //
+  int8_t zeropad[8];    //
   int32_t off_prev;     // Linked list
   int32_t off_next;     // Linked list
   float origin[3];      // XYZ position
