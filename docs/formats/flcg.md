@@ -70,8 +70,8 @@ struct FLCGModel {
 // FLCG Model data
 // 40B
 struct FLCGModelData {
-  int off_data_a;       // Offset of unk. data. Immediately after this struct?
-  int off_tris;         // Offset of triangles
+  int32_t off_data_a;   // Offset of unk. data. Immediately after this struct?
+  int32_t off_tris;     // Offset of triangles
   uint32_t num_data_a;  // Number of unknown data
   uint32_t num_tris;    // Triangles
   float unk_vec_a[3];   // These are probably a bounding box.
