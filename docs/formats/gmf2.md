@@ -77,7 +77,9 @@ struct GMF2Material {
     int32_t off_data;   // Material data offset
     int8_t zeropad[8];  // 
 };
+```
 
+```cpp
 // Material data
 // 48B little-endian
 struct GMF2MaterialData {
