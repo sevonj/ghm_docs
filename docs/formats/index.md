@@ -1,6 +1,12 @@
 # File Format Index
 
-| **`ID`** / Name            | Ext.          | Category | Desc.              | Games                                                                                  |
+??? info "File signatures" 
+    Most of the listed file formats start with a magic number to make them easier to identify. You can check the file signature with a hex editor:  
+    Go to [hexed.it](https://hexed.it), open a file, and see what the first bytes spell out.
+
+    ![img](img/hexedit-magic.png)
+
+| ID / Name                  | File Ext.     | Category | Description        | Games                                                                                  |
 | -------------------------- | ------------- | -------- | ------------------ | -------------------------------------------------------------------------------------- |
 | [**`FLCG`**](flcg)         | `.gcl`        | Models   | Collisions meshes  | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
 | **`GAN2`**                 | `.bin` `.ga2` | Anim     |                    | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
