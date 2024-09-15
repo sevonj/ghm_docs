@@ -6,14 +6,13 @@ No More Heroes
 - [RNHE41 (Wii US)](Files RNHE41.md)
 
 ## Roadmap
-
+(Not actively updated)
 ### Asset types
 
 - [ ] [GMF2](/ghm_docs/formats/gmf2)
     - [ ] Textures
         - [ ] All values (header)
-        - [x] Data  
-            It's a GCT0 file.
+        - [x] Data It's a GCT0 file.
     - [ ] Materials
         - [ ] All values
     - [ ] Objects
@@ -23,23 +22,15 @@ No More Heroes
             - [x] Scale
         - [ ] Geometry
             - [ ] Vertices
-                - [x] Common short int format
-                    - [x] Vertex scale 
-                - [ ] Other formats...
-            - [ ] Idx buffers
-                - [ ] Common tristrip format
-                    - [x] Indices
-                    - [ ] UV?
-                    - [ ] Normals?
-                    - [ ] Remaining data
-                - [ ] Other formats...
-            - [ ] Bones?
-            - [ ] Anims?
+                - [x] Position
+                - [x] UV
+                - [x] Normals
+                - [ ] Colors
+            - [ ] Armature?
+            - [ ] Animation?
         - [x] Culling
         - [x] Hierarchy
-        - [x] Unknown references to other objects  
-                They're parent/first child/prev/next
-        - [ ] data_c buffer
+        - [ ] data_c
         - [ ] All values
 - [ ] [FLCG](/ghm_docs/formats/flcg)
     - [ ] Materials (what are these dummy materials even used for?)
@@ -50,10 +41,11 @@ No More Heroes
             - [ ] Rotation?
             - [ ] Scale?
         - [ ] Data1
-        - [ ] Col Tris
+            - [ ] Hierarchy
+        - [x] Col Tris
             - [x] Geometry
-            - [ ] Linked list?
-            - [ ] unk_3
+            - [x] Linked list
+            - [x] Materials
         - [ ] Unknown vectors
 - [ ] [GCT0](/ghm_docs/formats/gct0)
     - [x] Size
