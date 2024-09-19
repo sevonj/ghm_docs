@@ -69,6 +69,6 @@ On versions greater than 1040, string bytes are XOR'd with `0x8D`.
   int32_t off_resource;  //
   int32_t len_resource;  //
   int32_t is_dir;        // Resource is a subdir. 0 or 1.
-  int32_t version;       //
+  int32_t version;       // Always same as root archive version?
   int32_t str_idx;       // Directory name in string table
 ```
