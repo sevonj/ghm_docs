@@ -11,6 +11,7 @@
 | [**`FLCG`**](flcg)         | `.gcl`        | Models   | Collisions meshes  | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
 | **`GAN2`**                 | `.bin` `.ga2` | Anim     |                    | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
 | [**`GCT0`**](gct0)         | `.bin` `.gct` | Texture  | GHM texture format | [`K7`](/ghm_docs/games/K7) [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2) |
+| **`GDLG`**                 | `.gdl`        | ?        | Packed with fonts  | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
 | [**`GMF2`**](gmf2)         | `.gm2`        | Model    |                    | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
 | [**`RMHG`**](rmhg)         | `.pak` `.rsl` | Archive  |                    | [`K7`](/ghm_docs/games/K7) [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2) |
 | **`RSAR`**                 | `.brsar`      | Audio    | Wii audio archive. | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
