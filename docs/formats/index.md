@@ -16,6 +16,7 @@
 | [**`RMHG`**](rmhg)         | `.pak` `.rsl` | Archive  |                    | [`K7`](/ghm_docs/games/K7) [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2) |
 | **`RSAR`**                 | `.brsar`      | Audio    | Wii audio archive. | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
 | **`RSTM`**                 | `.brstm`      | Audio    | Wii audio stream.  | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
+| **`SCR0`**                 | `.scb`        | ?        | STG/COMMON NMH1    | [`NMH`](/ghm_docs/games/NMH)                                                           |
 | **`SEST`**                 | `.bin`        | Audio    | SFX table          | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
 | **`STMD`**                 | `.bin`        | Audio    | SFX timing?        | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
 | **`STSD`**                 | `.bin`        | Audio    | SFX                | [`NMH`](/ghm_docs/games/NMH) [`NMH2`](/ghm_docs/games/NMH2)                            |
