@@ -13,17 +13,19 @@
     [No-More-RSL](/ghm_docs/tools/no-more-rsl)  
 
 
-Grasshopper Archive format
+Grasshopper Archive format.
+
+An rsl header only describes a flat file system, but subdirectories are supported by packing them as archives into the archive. These nested subdirectory archives aren't fully independent as they share the root archive's string table. Sometimes pre-packed archives are packed into other archives as normal files.
 
 ```cpp
-// Surface
-// 32B little-endian
+// File Header
+// 20B
 struct RMHGHeader {
-  int8_t magic[4];          // 'RMHG'
-  uint32_t num_resources;   // 
-  uint32_t attr_ptr;        // 
-  uint32_t version;         // 
-  uint32_t off_stringtable; // 
+  int8_t magic[4];             // 'RMHG'
+  uint32_t num_resources;      //
+  uint32_t off_resourcetable;  //
+  uint32_t version;            //
+  uint32_t off_stringtable;    // Zero in packed subdirectories.
 };
 ```
 ## Versions
@@ -32,16 +34,21 @@ struct RMHGHeader {
 | ------- | ----- |
 | 1062    | NMH   |
 | 1063    | NMH   |
+| 1069    | NMH2  |
+
+This list is far from exhaustive.
 
 ## String table
 
 The string table is placed near the end.
 
 ```cpp
-// String table header
-uint32_t num_strings;
-int32_t unknown;
-int32_t flags;
+// 12B little-endian
+struct StringtableHeader {
+  uint32_t num_strings;  //
+  int32_t unknown;       //
+  int32_t flags;         //
+}
 
 // -- 4B pad / 16B alignment
 
@@ -56,3 +63,12 @@ int32_t off_string[num_strings]; // Offset is relative to table header
 
 On versions greater than 1040, string bytes are XOR'd with `0x8D`. 
 
+## Resource table
+
+```cpp
+  int32_t off_resource;  //
+  int32_t len_resource;  //
+  int32_t is_dir;        // Resource is a subdir. 0 or 1.
+  int32_t version;       //
+  int32_t str_idx;       // Directory name in string table
+```
