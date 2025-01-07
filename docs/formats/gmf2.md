@@ -19,7 +19,8 @@ GMF2 Contents:
 - Textures
 - Materials
 - Objects
-    - Geometry
+- Geometry
+- Armatures
 
 The format is _mostly_ little-endian.
 
@@ -38,7 +39,7 @@ struct GMF2Header {
   int16_t num_unused;     //
   int16_t num_materials;  //
   int32_t off_objects;    //
-  int32_t off_textures;   // Always 0x70 or 0x80?
+  int32_t off_textures;   // Always 0x70 or 0x80?*
   int32_t off_unused;     //
   int32_t off_materials;  //
   int32_t unk_0x30;       //
@@ -46,7 +47,7 @@ struct GMF2Header {
 };
 ```
 
-In NMH2, there's often an unknown integer at `0x70`, in which case `off_textures` is moved to `0x80`.
+*In NMH2, there's often an unknown integer at `0x70`, in which case `off_textures` is `0x80`.
 
 ## Textures
 ```cpp
@@ -63,7 +64,7 @@ struct GMF2Texture {
 };
 ```
 
-Texture data itself is just a [GCT0](/ghm_docs/formats/gct0) file.
+Texture data itself is just a [GCT0](/ghm_docs/formats/gct0) file embedded in.
 
 ## Materials
 ```cpp
@@ -95,8 +96,8 @@ struct GMF2MaterialData {
 ## Objects
 ??? info "World coords"
 
-    The unit of distance in all 3d coordinates are 10m (or very close anyway, I didn't check).  
-    Divide them by 10 to get realistic sized models
+    The unit of distance in all 3d coordinates is 10 m (or very close anyway).  
+    Divide 3d coords by 10 to get realistic sized models.
 
 These seem to be used as bones in characters.
 
@@ -214,8 +215,9 @@ Each surface contains a number of tri-strips. Keep reading them until num_vertic
 uint16_t command;  // GPU command?
 uint16_t num_v;    // Number of vertices in this strip
 ```
-'command' is always 0x99(?) It's probably a [Wii draw command](https://wiki.tockdom.com/wiki/Wii_Graphics_Code).
- 0x98 is (non-indexed) tri-strip, so maybe 0x99 is an indexed tri-strip.
+'command' is always 0x99(?)
+
+(Speculation) It's probably a [Wii draw command](https://wiki.tockdom.com/wiki/Wii_Graphics_Code). If 0x98 is (non-indexed) tri-strip, 0x99 for an indexed tri-strip makes it seem likely to be the same format. Grasshopper often made use of platform SDK formats.
 
 After the header you get vertices, which are all one of these types:
 
